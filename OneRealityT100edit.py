@@ -25,7 +25,7 @@ print('''
 ''')
 
 # put your OpenAI API key here
-openai.api_key = "sk-ExaMpLeKeY"
+openai.api_key = "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"
 
 # set up microphone and speech recognition
 r = sr.Recognizer()

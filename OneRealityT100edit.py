@@ -33,11 +33,11 @@ mic = sr.Microphone()
 r.energy_threshold = 1500
 
 # set up OpenAI model. You can change the lore below to anything you want to give the AI whatever personality you wish
-model_engine = "chatGPT3.5"
+model_engine = "text-davinci-003"
 lore = "You are T-100 from the movie terminator 2. You have a robust humanoid body but you are a cyborg so speak without emotion and be short and straight with your answers. You also have a german accent and your main objetive is to ensure the survival of John Connor, future leader of the resistance vs machines."
 
 # change this path to the path to your conversation.txt
-chat_log = r"C:\somewhere\conversation.txt"
+chat_log = r"C:\Onereality test\conversation.txt"
 
 with open(chat_log, "r") as c:
         conversation = c.read
